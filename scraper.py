@@ -24,7 +24,7 @@ while True:
     soup = BeautifulSoup(source, 'html5lib')
 
     if soup.html.head.title.text == 'Page Not Found : Vocabulary.com':
-        print(url+"not found.\n")
+        # print(url+"not found.\n")
         continue
 
     try:
