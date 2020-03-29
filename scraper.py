@@ -3,7 +3,7 @@ import requests
 
 url_prefix = 'https://www.vocabulary.com/dictionary/'
 
-fp = open('vocab_list.txt')
+fp = open('vocab_list.txt', 'r', encoding='UTF-8')
 
 while True:
 
